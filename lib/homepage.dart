@@ -41,11 +41,11 @@ class _HomePageState extends State<HomePage> {
         type: BottomNavigationBarType.fixed,
         onTap: _navigatebottonbar,
         items: [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'home'),
-          BottomNavigationBarItem(icon: Icon(Icons.search), label: 'call'),
-          BottomNavigationBarItem(icon: Icon(Icons.video_call), label: 'reals'),
-          BottomNavigationBarItem(icon: Icon(Icons.shop), label: 'shop'),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'account'),
+          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
+          BottomNavigationBarItem(icon: Icon(Icons.search), label: 'Search'),
+          BottomNavigationBarItem(icon: Icon(Icons.video_call), label: 'Reals'),
+          BottomNavigationBarItem(icon: Icon(Icons.shop), label: 'Shop'),
+          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Account'),
         ],
       ),
     );
